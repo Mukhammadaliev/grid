@@ -130,9 +130,6 @@ img {
   background-size: cover;
   color: #fff;
   padding: 60px;
-  display: grid;
-  align-items: center;
-  justify-items: center;
 }
 .design__box {
   margin-bottom: 60px;
@@ -341,8 +338,46 @@ img {
     font-size: 26px;
     line-height: 32px;
   }
+  .wrapper {
+    display: block;
+  }
+  .design {
+    display: block;
+  }
+  .side {
+    display: block;
+  }
   .text {
     font-size: 15px;
     line-height: 20px;
+  }
+  .form {
+    grid-template-rows: 1fr 1fr 1.5fr;
+    grid-template-areas: "name name"
+                          "email email"
+                          "text text";
+  }
+}
+@media (max-width: 600px) {
+  .site-header {
+    padding: 20px;
+  }
+  .design {
+    padding: 20px;
+  }
+  .start {
+    padding: 20px;
+  }
+  .dommy {
+    padding: 20px;
+  }
+  .site-footer {
+    padding: 20px;
+  }
+  .contact {
+    padding: 20px;
+  }
+  .menu-burger {
+    margin-bottom: 20px;
   }
 }
