@@ -371,4 +371,7 @@ img {
   .menu-burger {
     margin-bottom: 20px;
   }
+  .design__title, .start__title, .dommy__title, .site-header__title, .contact__title {
+    margin-bottom: 20px;
+  }
 }
